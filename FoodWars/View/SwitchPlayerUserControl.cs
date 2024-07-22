@@ -99,5 +99,15 @@ namespace FoodWars.View
         {
 
         }
+
+        private void buttonAchievement_Click(object sender, EventArgs e)
+        {
+            AchievementUserControl achievementUC = new AchievementUserControl(BaseForm);
+
+            BaseForm.mainPanel.Controls.Remove(this);
+            BaseForm.mainPanel.Controls.Add(achievementUC);
+            achievementUC.Dock = DockStyle.Fill;
+
+        }
     }
 }

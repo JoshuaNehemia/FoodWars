@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FoodWars.Entity;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Text;
 
@@ -14,6 +16,8 @@ namespace FoodWars
         private int level;
         private Time bestTime;
         private Image picture;
+        private List<Achievement> listAchievements;
+        private int servedCustomer;
         #endregion
 
         #region Constructors
@@ -28,6 +32,8 @@ namespace FoodWars
             this.TotalIncome = 0;
             this.BestTime = new Time(0, 0, 0);
             this.Picture = picture;
+            this.ServedCustomer = 0;
+            this.ListAchievements = new List<Achievement>();
         }
         #endregion
 
@@ -87,6 +93,25 @@ namespace FoodWars
             {
                 if (value == null) throw new ArgumentException("No image specified!");
                 else this.picture = value;
+            }
+        }
+
+        public List<Achievement> ListAchievements { get => listAchievements; set => listAchievements = value; }
+        public int ServedCustomer 
+        { 
+            get => servedCustomer; 
+            set
+            {
+                if (value < 0)
+                {
+
+                    servedCustomer = 0;
+
+                }
+                else
+                {
+                    servedCustomer = value; 
+                }
             }
         }
         #endregion

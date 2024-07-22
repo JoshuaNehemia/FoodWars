@@ -1,15 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Windows.Forms;
 
 namespace FoodWars.Entity
 {
+    [Serializable]
     public class Achievement
     {
         #region DATA MEMBER
+        private Image picture;
         private int requirement;
         private string name;
         private int rank;
+        private int category;
         #endregion
         #region CONSTRUCTORS
         public Achievement(int category, int input)
@@ -74,26 +79,37 @@ namespace FoodWars.Entity
                 }
             }
         }
+
+        public int Category { get => category; set => category = value; }
+        public Image Picture { get => picture; set => picture = value; }
         #endregion
         #region METHOD
         // INT CATEGORY !!!!
         //Level = 0; Total Income = 1; Total Successs Customer = 2;
-        //Mwmbuat Achievement
-        public void CreateAchievement(int category, int input)
+        //Membuat Achievement
+        private void CreateAchievement(int category, int input)
         {
 
             int rank = RankAchievement(ListRequirement(category), input);
             if (rank != 0)
             {
+                this.Category = category;
                 this.Rank = rank;
                 this.Name = GenerateName(category);
                 this.Requirement = ListRequirement(category)[this.Rank - 1];
+                this.Picture = PictureSelector(this.Rank);
             }
             else
             {
                 //Achievement Not Generated
                 return;
             }
+        }
+        private bool CheckAchievement(int category, int input)
+        {
+            int rank = RankAchievement(ListRequirement(category), input);
+            return (rank != 0);
+
         }
         //Untuk menentukan rank berapa di achievement tersebut
         private int RankAchievement(List<int> requirement, int input)
@@ -121,7 +137,7 @@ namespace FoodWars.Entity
             }
             else if (category == 1)
             {
-                requirement = new List<int>() { 10_000, 50_000, 100_000, 200_000, 300_000, 500_000, 750_000, 1_000_000 };
+                requirement = new List<int>() { 10000, 50000, 100000, 200000, 300000, 500000, 750000, 1000000 };
             }
             else
             {
@@ -130,11 +146,12 @@ namespace FoodWars.Entity
             return requirement;
         }
 
+
         private string GenerateName(int category)
         {
             string name = "";
 
-            List<string> rankName = new List<string>() { "Wooden", "Stone", "Iron", "Bronze", "Silver", "Gold", "Platinum", "Diamond" };
+            List<string> rankName = new List<string>() { "Plastic", "Wood", "Iron", "Bronze", "Silver", "Gold", "Platinum", "Diamond" };
             //GANTI INDEX
             name += rankName[(this.Rank - 1)] + " Rank ";
 
@@ -151,6 +168,56 @@ namespace FoodWars.Entity
                 name += " in Customer Served";
             }
             return name;
+        }
+        private Image PictureSelector(int rank)
+        {
+            Image selectedImage = null;
+
+            switch (rank)
+            {
+                case 1:
+                    {
+                        selectedImage = Properties.Resources.Plastic;
+
+                        break;
+                    }
+                case 2:
+                    {
+                        selectedImage = Properties.Resources.Wood;
+                        break;
+                    }
+                case 3:
+                    {
+                        selectedImage = Properties.Resources.Metal;
+                        break;
+                    }
+                case 4:
+                    {
+                        selectedImage = Properties.Resources.Bronze;
+                        break;
+                    }
+                case 5:
+                    {
+                        selectedImage = Properties.Resources.Silver;
+                        break;
+                    }
+                case 6:
+                    {
+                        selectedImage = Properties.Resources.Gold;
+                        break;
+                    }
+                case 7:
+                    {
+                        selectedImage = Properties.Resources.Platinum;
+                        break;
+                    }
+                case 8:
+                    {
+                        selectedImage = Properties.Resources.Diamond;
+                        break;
+                    }
+            }
+            return selectedImage;
         }
 
         #endregion

@@ -1,4 +1,5 @@
-﻿using FoodWars.Entity.CustomerRole;
+﻿using FoodWars.Entity;
+using FoodWars.Entity.CustomerRole;
 using FoodWars.Entity.CustomerSubtype;
 using FoodWars.Properties;
 using FoodWars.Repository;
@@ -6,6 +7,7 @@ using FoodWars.Utilities;
 using FoodWars.Values;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 namespace FoodWars.Service
@@ -16,6 +18,7 @@ namespace FoodWars.Service
         // Persist during the entire application lifetime!
         private PlayerRepo repo; // Memang tidak diberi property
         private Players player; // Menyimpan status player yang sedang bermain saat ini.
+        private Achievement createAchievement;
 
         // Game components (Reinitialized during a new game)
         private CustomerQueue customerQueue;
@@ -732,9 +735,84 @@ namespace FoodWars.Service
         {
             Player.TotalIncome += dailyRevenue;
             Player.Level++;
+            Player.ServedCustomer += servedCustomer;
             if (Player.BestIncome < dailyRevenue) Player.BestIncome = dailyRevenue;
             if (Player.BestTime.GetSecond() > OpenDuration.GetSecond() || Player.BestTime.GetSecond() == 0) Player.BestTime = OpenDuration;
+            if (CheckAchievement(0, Player.Level))
+            {
+                createAchievement = new Achievement(0, Player.Level);
+                AddAchievement();
+            }
+            if (CheckAchievement(1, (int)Player.TotalIncome))
+            {
+                createAchievement = new Achievement(1, (int)Player.TotalIncome);
+                AddAchievement();
+            }
+            if (CheckAchievement(2, Player.ServedCustomer))
+            {
+                createAchievement = new Achievement(2, Player.ServedCustomer);
+                AddAchievement();
+            }
             repo.UpdatePlayer(Player);
+        }
+        private bool CheckAchievement(int category, int input)
+        {
+            int rank = RankAchievement(ListRequirement(category), input);
+            return (rank != 0);
+
+        }
+        //Untuk menentukan rank berapa di achievement tersebut
+        private int RankAchievement(List<int> requirement, int input)
+        {
+            int result = 0;
+
+            for (int i = 0; i < requirement.Count(); i++)
+            {
+                if (requirement[i] <= input)
+                {
+                    result++;
+                }
+            }
+            return result;
+        }
+
+
+
+        private List<int> ListRequirement(int category)
+        {
+            List<int> requirement;
+            if (category == 0)
+            {
+                requirement = new List<int>() { 10, 50, 100, 200, 300, 500, 750, 1_000 };
+            }
+            else if (category == 1)
+            {
+                requirement = new List<int>() { 10000, 50000, 100000, 200000, 300000, 500000, 750000, 1000000 };
+            }
+            else
+            {
+                requirement = new List<int>() { 10, 50, 100, 200, 300, 500, 750, 1_000 };
+            }
+            return requirement;
+        }
+
+        public void AddAchievement()
+        {
+            int match = 0;
+            if (createAchievement != null)
+            {
+                foreach (Achievement a in Player.ListAchievements)
+                {
+                    if (a.Name == createAchievement.Name)
+                    {
+                        match++;
+                    }
+                }
+                if(match ==0)
+                {
+                    Player.ListAchievements.Add(createAchievement);
+                }
+            }
         }
 
         public bool AllCustomerServed()

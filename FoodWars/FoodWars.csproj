@@ -71,6 +71,12 @@
     <Compile Include="Values\GlassSize.cs" />
     <Compile Include="Values\IngredientCategory.cs" />
     <Compile Include="Values\CustomerType.cs" />
+    <Compile Include="View\AchievementUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\AchievementUserControl.Designer.cs">
+      <DependentUpon>AchievementUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\AchievementUserControl.resx">
+      <DependentUpon>AchievementUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -566,6 +575,36 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Achievements %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bronze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plastic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platinum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bronze1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

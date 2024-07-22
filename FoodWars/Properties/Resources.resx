@@ -118,80 +118,191 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Bev_ocha_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_ocha_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_L_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_ocha_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_ocha_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_ocha_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_ocha_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_ocha_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_sake_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_sake_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_sake_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_sake_L_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bev_sake_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bev_sake_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bev_sake_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_sake_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RestaurantAudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RestaurantAudio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Bev_sake_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_sake_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_sake_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_sake_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_water_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_water_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bev_water_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_water_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prepTable_bev_ocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_bev_ocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bev_water_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bev_water_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bev_water_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_water_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="royalFamily_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\royalFamily_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bev_water_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_water_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="element_playerInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayerInfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bev_water_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bev_water_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bev_ocha_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_inGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_inGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bronze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bronze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_mainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainMenuUserControl_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="protein_tofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protein_tofu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_newPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewPlayerUserControl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prepTable_merch_tumbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_merch_tumbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_SwitchPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SwitchPlayerUserControl_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bev_water_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_water_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_bubble_incorrect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_bubble_incorrect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="side_sunomono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\side_sunomono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OOP___Asset_Object_20240712_010031_0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOP - Asset Object_20240712_010031_0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nobleman_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nobleman_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_veggies_hibiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_veggies_hibiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_sake_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_sake_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Achievements (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Achievements (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_sideDish_sunomono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_sideDish_sunomono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GAME_LOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GAME LOSE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rice_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rice_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_protein_tofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_protein_tofu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protein_ebi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protein_ebi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plastic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plastic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_merch_fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_merch_fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_sideDish_nimono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_sideDish_nimono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_sake_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_sake_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_leaderboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_leaderboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merch_tumbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merch_tumbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merch_fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merch_fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_ocha_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veggie_edamame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veggie_edamame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="board_gameStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\board_gameStatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="businessMan_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\businessMan_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sfx_buttonClick1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_buttonClick.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bev_ocha_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_L_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nobleman_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nobleman_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merch_actionFigure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merch_actionFigure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chekcbox_Checked_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chekcbox_Checked_False.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_ocha_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="veggie_pickle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\veggie_pickle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_bev_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_bev_water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_buttonHover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_buttonHover.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_settings_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_settings_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_start_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_start_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_water_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_water_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_newPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewPlayerUserControl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_water_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_water_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="side_nimono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\side_nimono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nobleman_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nobleman_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_pause_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_pause_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_exit_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_exit_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="side_korokke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\side_korokke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leaderboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leaderboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="businessMan_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\businessMan_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,191 +310,14 @@
   <data name="businessMan_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\businessMan_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_exit_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_exit_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_leaderboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_leaderboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_leaderboard_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_leaderboard_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_pause_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_pause_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Symbol_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_plus_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Symbol_Plus_Stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_settings_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_settings_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_start_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_start_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_start_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_start_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_switchPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_switchPlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_switchPlayer_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_switchPlayer_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Checkbox_Check_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Checkbox_Check_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chekcbox_Checked_False" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chekcbox_Checked_False.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="element_playerInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlayerInfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="folk_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folk_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prepTable_protein_ebiFurai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_protein_ebiFurai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="folk_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folk_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="folk_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folk_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GAME_LOSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GAME LOSE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GAME_WIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GAME WIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glass_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glass_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glass_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glass_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glass_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glass_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2062361-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Leaderboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Leaderboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="merch_actionFigure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merch_actionFigure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="merch_fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merch_fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="merch_tumbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merch_tumbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="msg_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\msg_bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="msg_bubble_incorrect" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\msg_bubble_incorrect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nobleman_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nobleman_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nobleman_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nobleman_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nobleman_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nobleman_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OOP___Asset_Object_20240712_010031_0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OOP - Asset Object_20240712_010031_0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="plate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_bev_ocha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_bev_ocha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_bev_sake" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_bev_sake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_bev_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_bev_water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_merch_actionFigure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_merch_actionFigure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_merch_fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_merch_fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_merch_tumbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_merch_tumbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_protein_ebiFurai" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_protein_ebiFurai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_protein_tofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_protein_tofu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_protein_tonkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_protein_tonkatsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_sideDish_korokke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_sideDish_korokke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_sideDish_nimono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_sideDish_nimono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_sideDish_sunomono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_sideDish_sunomono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_veggies_edamame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_veggies_edamame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_veggies_hibiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_veggies_hibiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="prepTable_veggies_pickle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prepTable_veggies_pickle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="protein_ebi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\protein_ebi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="protein_tofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\protein_tofu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="protein_tonkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\protein_tonkatsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RestaurantAudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RestaurantAudio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rice_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rice_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rice_corn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rice_corn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rice_regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rice_regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="royalFamily_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\royalFamily_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="royalFamily_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\royalFamily_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bev_water_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_water_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="royalFamily_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\royalFamily_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,46 +325,142 @@
   <data name="samurai_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samurai_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samurai_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samurai_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="glass_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samurai_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samurai_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_Uyuu_Restaurant__Genshin_Impact_Inazuma_OST_BGM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\[Uyuu Restaurant] Genshin Impact Inazuma OST BGM.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Checkbox_Check_True" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checkbox_Check_True.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sfx_buttonClick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sfx_buttonClick.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="sfx_buttonClick1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfx_buttonClick.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button_plus_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol_Plus_Stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sfx_buttonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfx_buttonHover.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="prepTable_veggies_pickle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_veggies_pickle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sfx_buttonHover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfx_buttonHover.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Diamond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamond.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="side_korokke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\side_korokke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="prepTable_veggies_edamame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_veggies_edamame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="side_nimono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\side_nimono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="side_sunomono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\side_sunomono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="veggie_edamame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\veggie_edamame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_mainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainMenuUserControl_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="veggie_hibiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\veggie_hibiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="veggie_pickle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\veggie_pickle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="samurai_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samurai_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_Uyuu_Restaurant__Genshin_Impact_Inazuma_OST_BGM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\[Uyuu Restaurant] Genshin Impact Inazuma OST BGM.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="glass_S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass_S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_sake_L_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_sake_L_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_leaderboard_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_leaderboard_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_merch_actionFigure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_merch_actionFigure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folk_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folk_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_sideDish_korokke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_sideDish_korokke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rice_corn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rice_corn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_buttonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_buttonHover.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prepTable_bev_sake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_bev_sake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_ocha_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Platinum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Platinum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="businessMan_child" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\businessMan_child.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protein_tonkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protein_tonkatsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glass_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_start_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_start_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rice_regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rice_regular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folk_male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folk_male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2062361-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_water_M_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_water_M_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_sake_L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_sake_L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="samurai_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samurai_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prepTable_protein_tonkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prepTable_protein_tonkatsu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_switchPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_switchPlayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_SwitchPlayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SwitchPlayerUserControl_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_inGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_inGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="royalFamily_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\royalFamily_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_ocha_M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_ocha_M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GAME_WIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GAME WIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_switchPlayer_stroke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_switchPlayer_stroke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bev_sake_S_Cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bev_sake_S_Cold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bronze1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bronze1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

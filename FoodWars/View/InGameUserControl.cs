@@ -1,4 +1,5 @@
-﻿using FoodWars.Properties;
+﻿using FoodWars.Entity;
+using FoodWars.Properties;
 using FoodWars.Utilities;
 using FoodWars.Values;
 using System;
