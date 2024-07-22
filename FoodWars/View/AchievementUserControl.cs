@@ -85,17 +85,22 @@ namespace FoodWars.View
             labelTotalIncome.Text = "Total Income : " + baseForm.Game.Player.TotalIncome;
             panelImagePlayer.BackgroundImage = baseForm.Game.Player.Picture;
             panelImagePlayer.BackgroundImageLayout = ImageLayout.Stretch;
-            labelAchievementName.Text = baseForm.Game.Player.ListAchievements[index].Name;
-            if (baseForm.Game.Player.ListAchievements[index].Category == 0)
-                labelCategory.Text = "Category : Level Achieved"; 
-            if (baseForm.Game.Player.ListAchievements[index].Category == 1)
-                labelCategory.Text = "Category : Total Income";
-            if (baseForm.Game.Player.ListAchievements[index].Category == 2)
-                labelCategory.Text = "Category : Customer Served";
-            labelRequirement.Text = "Requirement : " + baseForm.Game.Player.ListAchievements[index].Requirement;
-            labelIndex.Text = (index+1).ToString() + " / " + baseForm.Game.Player.ListAchievements.Count;
-            pictureBox1.BackgroundImage = baseForm.Game.Player.ListAchievements[index].Picture;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            if (baseForm.Game.Player.ListAchievements.Count != 0)
+            {
+
+                labelAchievementName.Text = baseForm.Game.Player.ListAchievements[index].Name;
+                if (baseForm.Game.Player.ListAchievements[index].Category == 0)
+                    labelCategory.Text = "Category : Level Achieved";
+                if (baseForm.Game.Player.ListAchievements[index].Category == 1)
+                    labelCategory.Text = "Category : Total Income";
+                if (baseForm.Game.Player.ListAchievements[index].Category == 2)
+                    labelCategory.Text = "Category : Customer Served";
+                labelRequirement.Text = "Requirement : " + baseForm.Game.Player.ListAchievements[index].Requirement;
+                labelIndex.Text = (index + 1).ToString() + " / " + baseForm.Game.Player.ListAchievements.Count;
+                pictureBox1.BackgroundImage = baseForm.Game.Player.ListAchievements[index].Picture;
+                pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+
+            }
 
         }
 
