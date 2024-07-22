@@ -107,7 +107,8 @@ namespace FoodWars.View
         {
             Players buffer;
             int mismatch = 1;
-            while (mismatch != 0)
+
+            while (mismatch!=0)
             {
                 mismatch = 0;
                 for (int i = 1; i < this.listRankPlayers.Count; i++)
@@ -128,8 +129,8 @@ namespace FoodWars.View
                             buffer = listRankPlayers[i - 1];
                             listRankPlayers[i - 1] = listRankPlayers[i];
                             listRankPlayers[i] = buffer;
+                            mismatch++;
                         }
-                        mismatch++;
                     }
                 }
             }
